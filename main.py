@@ -1,20 +1,18 @@
-import tkinter
 
-# create a window 
-window = tkinter.Tk()
+# ---------------------------- CONSTANTS ------------------------------- #
+PINK = "#e2979c"
+RED = "#e7305b"
+GREEN = "#9bdeac"
+YELLOW = "#f7f5dd"
+FONT_NAME = "Courier"
+WORK_MIN = 25
+SHORT_BREAK_MIN = 5
+LONG_BREAK_MIN = 20
 
-window.title('My First GUI Program')
-window.minsize(width=500, height=300)
+# ---------------------------- TIMER RESET ------------------------------- # 
 
-#label
-my_label = tkinter.Label(text='I am a Label', font=("Arial", 24, "bold"))
-my_label.pack(side='left') #needed to have the label appear
+# ---------------------------- TIMER MECHANISM ------------------------------- # 
 
+# ---------------------------- COUNTDOWN MECHANISM ------------------------------- # 
 
-
-
-# keep the window open; must be at end of code
-window.mainloop()
-
-
-
+# ---------------------------- UI SETUP ------------------------------- #
